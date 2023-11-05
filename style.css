@@ -1,11 +1,14 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav {
@@ -23,13 +26,15 @@ ul {
   padding: 0;
 }
 
-ul li a:hover {
-  font-weight: bold;
-}
-
 ul li a {
   color: #1F1534;
   text-decoration: none;
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
 }
 
 h1, ul {
@@ -91,7 +96,7 @@ footer a {
 }
 
 footer a:hover {
-  font-weight: bold;
+  font-weight: bold; /*SUGESTÃO DO DESENVOLVEDOR, ESSA PROPRIEDADE NÃO TEM NO MODELO DO FIGMA*/
 }
 
 
