@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto Móveis customizados" src=".github/preview.png" width="70%">
+  <img alt="Treine.me" src=".github/preview.png" width="70%">
 </p>
 
 <br>
